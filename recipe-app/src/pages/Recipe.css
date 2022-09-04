@@ -1,0 +1,51 @@
+.wrapper {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.image-div {
+  width: 40%;
+}
+.text-div {
+  width: 60%;
+  font-weight: bold;
+  font-size: 14px;
+}
+.text-div p {
+  padding: 15px 0;
+  line-height: 22px;
+}
+.image-div h4 {
+  margin: 0 0 15px 0;
+}
+.image-div img {
+  width: 100%;
+}
+.btn-wrapper {
+  display: flex;
+}
+.btn-wrapper button {
+  background: none;
+  border: 2px solid #000;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  font-weight: bold;
+}
+.btn-wrapper button:hover {
+  background: rgb(54, 54, 54);
+  color: #fff;
+}
+.btn-wrapper .instr {
+  background: rgb(54, 54, 54);
+  color: #fff;
+}
+.btn-wrapper .instr:hover {
+  background: none;
+  color: #000;
+}

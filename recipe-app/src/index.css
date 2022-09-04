@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway;
+}
+#root {
+  width: 100%;
+}
+.container {
+  width: 75%;
+  margin: 35px auto 150px auto;
+}
+.container > h4 {
+  margin-top: 25px;
+}
+header {
+  font-family: dancing script;
+  font-weight: light;
+}
+header a {
+  color: #000;
+  text-decoration: none;
+  font-size: 26px;
+}
+/* searchbar  */
+.searchbar-wrapper {
+  width: 600px;
+  height: 35px;
+  margin: 5% auto;
+  background: rgb(54, 54, 54);
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.searchbar {
+  background: none;
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+  color: #fff;
+}
+.searchbar:focus {
+  outline: none;
+}
+
+/* filterbar */
+.filterbar {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.filterbar a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+  font-size: 16px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgb(54, 54, 54);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.filterbar a:hover {
+  background: rgb(70, 70, 70);
+  transform: scale(1.1);
+}
+.filterbar a.active {
+  background: linear-gradient(to right, #f27121, #e94057);
+}
+.filterbar a h4 {
+  padding: 4px 0;
+  font-size: 8px;
+}
